@@ -1,0 +1,46 @@
+*{
+   overflow-x: hidden;
+}
+
+body{
+   background: linear-gradient(160deg,#62a5e0,#16d03295);
+}
+#reserver_terrain img{
+    width : 40% ;
+    height : 60% ;
+    margin-top : 8%;
+    
+}
+#reserver_terrain .form_reservation{
+   background-color: #00000090;
+   
+   width : 50%;
+   margin-left : 22%;
+   border-radius: 35px ;
+}
+@media (min-width:200px) and (max-width:940px) {
+    #reserver_terrain .form_reservation{
+        width:80% ;
+        margin-left : 10%;
+    }
+
+
+
+}
+#reserver_terrain .form_reservation input,#reserver_terrain .form_reservation select{
+    border:none ;
+ }
+
+#reserver_terrain .form_reservation input[type=text],#reserver_terrain .form_reservation input[type=number],#reserver_terrain .form_reservation select, #reserver_terrain .form_reservation input[type=textarea]{
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px;
+    height : 2.2rem;
+    width : 17rem;
+
+}
+#reserver_terrain .form_reservation input[type=submit],#reserver_terrain .form_reservation input[type=reset]{
+    color : black ;
+    background-color: #C0FF37;
+    border : none ;
+    border-radius: 14px ;
+}

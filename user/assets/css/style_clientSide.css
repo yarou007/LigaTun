@@ -1,0 +1,67 @@
+*{
+     overflow-x: hidden; 
+}
+
+body{
+    background: linear-gradient(160deg,#62a5e0,#16d03295);
+}
+#profil .frst{
+    width : 100%;
+   font-weight : 600;
+   padding : 2rem ;
+   border-radius : 16px;
+}
+@media (max-width:1000px) {
+    #profil select {
+        margin-top : 20px;
+    }
+}
+
+#profil img{
+    width : 40% ;
+    height : 60% ;
+    margin-top : 8%;
+    
+}
+
+
+#profil select {
+    background-color: #1B96C4;
+    border: 0px solid;
+    border-radius : 15px;
+    color : white ;
+    font-weight : 600;
+    width : 55% ; 
+    height : 2.8rem;
+    font-size: 1.2rem;
+}
+#profil .dates {
+    background-color: #000000;
+    opacity : 0.68;
+    border: 0px solid;
+    border-radius : 45px;
+    color : white ;
+    width : 55% ; 
+    height : 20.8rem;
+    margin-left : 22%;
+}
+#profil .list-group a {
+    border-radius : 12px ;
+    font-weight : 600 ;
+    width : 55%;
+    margin-left : 25% ;
+    height : 4.7rem;
+     font-size:1.3rem;
+}
+#profil .list-group a p{
+    margin-top:0.6rem;
+}
+@media (max-width:1000px) {
+    #profil .list-group a {
+        font-size:calc(1vw + 0.5rem);
+
+    }
+}
+#profil .dates ul{
+    margin-right : 20%;
+}

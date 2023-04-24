@@ -1,0 +1,84 @@
+*{
+    overflow-x: hidden;
+ }
+ 
+ body{
+    background: linear-gradient(160deg,#62a5e0,#16d03295);
+ }
+ #historique_reservation img{
+     width : 40% ;
+     height : 60% ;
+     margin-top : 8%;
+     
+ }
+ #historique_reservation .histo_reserv_box{
+    background-color : white ;
+    font-weight:600 ;
+    font-size : 1.20rem ; 
+     border-radius :10px ;
+    height:5rem  ; margin-left : 4%;
+     width : 30%;
+ }
+ #historique_reservation .histo_reserv_box p{
+    margin-top : 5.5% ;
+ }
+ #historique_reservation .histo_info{
+   background-color: #000000;
+   border-radius: 20px ;
+   width : 95%;
+   margin-left : 2%;
+   
+}
+#historique_reservation .histo_info p{
+   margin-top:1%;
+}
+#historique_reservation .histo_info p span{
+   padding-right : 4rem;
+   color : white ;
+   margin-left : 2rem;
+   font-size: 1.1rem;
+   
+}
+
+
+
+ /* #historique_reservation table{
+    background-color:#000000;
+    width : 90%;
+    margin-left : 2.5rem;
+    border-radius: 20px;
+    height : 2.9rem;
+ }
+ #historique_reservation table tr td{
+   color :white ;
+   font-size :1rem;
+ } */
+
+ @media (min-width:300px) and (max-width:700px) {
+    #historique_reservation table{
+        width : 100%;
+        margin-left : 0px;
+    }
+ }
+
+ @media (min-width:300px) and (max-width:500px) {
+    #historique_reservation .histo_reserv_box{
+        width : 80%;
+    }
+ }
+ @media (min-width:501px) and (max-width:700px) {
+    #historique_reservation .histo_reserv_box{
+        width : 65%;
+    }
+ }
+ @media (min-width:701px) and (max-width:900px) {
+    #historique_reservation .histo_reserv_box{
+        width : 50%;
+    }
+ }
+ @media (min-width:901px) and (max-width:1100px) {
+    #historique_reservation .histo_reserv_box{
+        width : 40%;
+    }
+ }
+

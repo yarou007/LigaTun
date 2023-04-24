@@ -1,0 +1,24 @@
+*{
+    overflow-x: hidden;
+ }
+ 
+ body{
+    background: linear-gradient(160deg,#62a5e0,#16d03295);
+ }
+ #historique_reservation img{
+     width : 40% ;
+     height : 60% ;
+     margin-top : 8%;
+     
+ }
+ #historique_reservation .histo_reserv_box{
+    background-color : white ;
+    font-weight:600 ;
+    font-size : 1.20rem ; 
+     border-radius :10px ;
+    height:5rem  ; margin-left : 4%;
+     width : 30%;
+ }
+ #historique_reservation .histo_reserv_box p{
+    margin-top : 5.5% ;
+ }
