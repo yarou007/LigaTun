@@ -1,0 +1,46 @@
+*{
+    overflow-x: hidden;
+ }
+ 
+ body{
+    background: linear-gradient(160deg,#62a5e0,#16d03295);
+ }
+ #recherche_takwira img{
+     width : 40% ;
+     height : 60% ;
+     margin-top : 8%;
+     
+ }
+ #recherche_takwira .form_recherche{
+    background-color: #00000093;
+    
+    width : 40%;
+    margin-left : 27%;
+    border-radius: 35px ;
+ }
+ @media (min-width:200px) and (max-width:940px) {
+     #recherche_takwira .form_recherche{
+         width:80% ;
+         margin-left : 10%;
+     }
+ 
+ 
+ 
+ }
+ #recherche_takwira .form_recherche input,#recherche_takwira .form_recherche select{
+     border:none ;
+  }
+ 
+ #recherche_takwira .form_recherche input[type=text],#recherche_takwira .form_recherche input[type=number],#recherche_takwira .form_recherche select,#recherche_takwira .form_recherche input[type=date]{
+     border-top-right-radius: 15px ;
+     border-top-left-radius: 15px;
+     height : 2.2rem;
+     width : 17rem;
+ 
+ }
+ #recherche_takwira .form_recherche input[type=submit],#recherche_takwira .form_recherche input[type=reset]{
+     color : black ;
+     background-color: #FF50B9;
+     border : none ;
+     border-radius: 14px ;
+ }
